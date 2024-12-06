@@ -1,26 +1,29 @@
 /* Yleisasetukset */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Bodoni 72 Smallcaps", serif; /* Oletettu paikallinen fontti */
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #2B3369; /* tumman sininen taustaväri */
+    background-color: #A1A4BB; /* Vaalea taustaväri */
+    font-size: 23px; /* Fonttikoko */
+    color: #2B3369; /* Tumma teksti */
 }
 
 /* Otsikko ja navigointi */
 header {
-    background-color: #A1A4BB; 
+    background-color: #2B3369; /* Tumma sininen tausta */
+    color: #A1A4BB; /* Vaalea teksti */
     text-align: center;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
-    background: #A1A4BB;
-    margin: 0;
+    background: #2B3369; /* Tumma sininen navigoinnille */
 }
 
 nav ul li {
@@ -28,36 +31,37 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: #A1A4BB; /* Vaalea linkkiväri */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #00bfff; /* Kirkas sininen hover-efekti */
+    color: #ffffff; /* Valkoinen hover-efekti */
 }
 
 /* Etusivun esittelyosio */
 .hero {
     text-align: center;
     padding: 2rem;
-    background: #A1A4BB; 
-    color: #003f7f; /* Tumma sininen teksti */
+    background: #A1A4BB; /* Vaalea tausta */
+    color: #2B3369; /* Tumma teksti */
 }
 
 .hero h2 {
-    color: #0056b3;
+    color: #2B3369;
+    font-size: 2rem; /* Suurempi fonttikoko otsikoille */
 }
 
 .trending {
     padding: 2rem;
     text-align: center;
-    background-color: #f4f8fc;
+    background-color: #f4f4f8;
 }
 
 .trending h2 {
-    color: #2B3369; 
+    color: #2B3369; /* Tumma sininen */
 }
 
 /* Tuotegalleria */
@@ -69,9 +73,9 @@ nav ul li a:hover {
 }
 
 .product-grid article {
-    border: 1px solid #d1e7f7; /* Sininen kehys */
+    border: 1px solid #2B3369; /* Tumma kehys */
     padding: 1rem;
-    background: white;
+    background: #ffffff;
     max-width: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -86,68 +90,9 @@ nav ul li a:hover {
 footer {
     text-align: center;
     padding: 1rem;
-    background: #2B3369; 
-    color: white;
+    background: #2B3369; /* Tumma sininen */
+    color: #A1A4BB; /* Vaalea teksti */
     font-size: 0.9rem;
-}
-
-
-/* Yhteystiedot */
-.contact-info {
-    text-align: center;
-    padding: 2rem;
-    background-color: #A1A4BB; /* Vaalea tausta */
-    color: #2B3369; /* Tumma teksti */
-}
-
-.contact-info p {
-    margin: 0.5rem 0;
-    font-size: 1.2rem;
-}
-
-.contact-form {
-    padding: 2rem;
-    text-align: center;
-    background-color: #f4f4f8; /* Erittäin vaalea tausta */
-}
-
-.contact-form h2 {
-    color: #2B3369;
-}
-
-form {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-label {
-    font-weight: bold;
-    color: #2B3369;
-    text-align: left;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 0.5rem;
-    border: 1px solid #2B3369;
-    border-radius: 4px;
-}
-
-button {
-    background-color: #2B3369;
-    color: #A1A4BB;
-    border: none;
-    padding: 0.8rem;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #003f7f; /* Tumma hover-efekti */
 }
 /* Tuotelistaus */
 .product-list {
