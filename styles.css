@@ -9,7 +9,7 @@ body {
 
 /* Otsikko ja navigointi */
 header {
-    background-color: #0056b3; /* Tumma sininen tausta */
+    background-color: #2B3369; /* Tumma sininen tausta */
     color: white;
     text-align: center;
     padding: 1rem;
@@ -29,7 +29,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
