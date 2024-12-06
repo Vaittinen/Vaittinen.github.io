@@ -10,7 +10,7 @@ body {
 /* Otsikko ja navigointi */
 header {
     background-color: #2B3369; /* Tumma sininen tausta */
-    color: white;
+    color: #2B3369;
     text-align: center;
     padding: 1rem;
 }
@@ -20,7 +20,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: center;
-    background: #003f7f; /* Syvempi sininen navigoinnille */
+    background: #2B3369; /* Syvempi sininen navigoinnille */
     margin: 0;
 }
 
@@ -43,7 +43,7 @@ nav ul li a:hover {
 .hero {
     text-align: center;
     padding: 2rem;
-    background: #e9f3fc; /* Erittäin vaalea sininen */
+    background: #2B3369; 
     color: #003f7f; /* Tumma sininen teksti */
 }
 
@@ -58,7 +58,7 @@ nav ul li a:hover {
 }
 
 .trending h2 {
-    color: #003f7f; /* Tumma sininen */
+    color: #2B3369; 
 }
 
 /* Tuotegalleria */
@@ -87,7 +87,7 @@ nav ul li a:hover {
 footer {
     text-align: center;
     padding: 1rem;
-    background: #0056b3; /* Tumma sininen */
+    background: #2B3369; 
     color: white;
     font-size: 0.9rem;
 }
