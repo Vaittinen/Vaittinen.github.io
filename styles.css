@@ -115,13 +115,6 @@ footer {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.product img {
-    max-width: 100%;   /* Kuvan leveys täyttää laatikon */
-    height: auto;      /* Säilyttää mittasuhteet */
-    margin-bottom: 1rem;
-    border: none;      /* Poistaa kehyksen */
-}
-
 .product h2 {
     font-size: 1.5rem;
     color: #2B3369; /* Tumma teksti */
