@@ -59,9 +59,8 @@ nav ul li a:hover {
 
 /* Trendaavat tuotteet */
 .trending {
-    padding: 2rem;
     text-align: center;
-    background-color: #f4f8fc;
+    background-color: #2B3369;
 }
 
 .trending h2 {
